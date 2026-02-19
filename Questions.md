@@ -54,21 +54,28 @@ Même si on a amélioré la sémantique de notre page web, Lighthouse ne le pren
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse: 
+2.38
 
 # Q11: Quel est la valeur du score AA :
 Réponse:
+3.0
 
 # Q12: Quel est la valeur du score AAA :
 Réponse:
+4.5
 
 # Q13: Comment pouvez vous changer la valeur du contraste de votre texte ?
 Réponse:
 
+Pour améliorer la valeur du contraste, il faut choisir des couleurs de texte qui sont plus foncées ou plus claires que le fond et du coup éviter des couleurs proches du fond.
+
 # Q14: Ajouter le screen de votre score Lighthouse
 Screen:
+![alt text](image-4.png)
 
 # Q15: Êtes vous capable de déterminer visuellement ce qui est un lien ou pas en appliquant chaque altérations ?
 Réponse:
+Je vois bien l'assombrissement quand je passe ma souris ce qui indique un lien mais une personne non habitué pourrait confondre avec une image.
 
 # Q16: Ajouter le screen de votre score Lighthouse
 Screen:

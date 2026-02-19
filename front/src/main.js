@@ -7,7 +7,6 @@ document.querySelector('#app').innerHTML = `
           Pour accéder a la page /about <a href="about/" style="text-decoration: none;">click ici</a>
         </header>
 
-
         <nav>
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
@@ -31,23 +30,23 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-rss"></a>
         </nav>
 
-        <div class="row">
-          <div class="leftcolumn">
-            <div class="card">
+        <main class="row">
+          <section class="leftcolumn">
+            <section class="card">
               <h1>Nom étudiant</h1>
-              <h5>description</h5>
-              <div id="quiz">
+              <h2>description</h2>
+              <section id="quiz">
                 <h2>A TOI DE JOUER</h2>
-                <div id="question"></div>
-                <div id="proposals"></div>
-              </div>
-            </div>
-          </div>
-          <div class="rightcolumn">
-            <div class="card">
+                <section id="question"></section>
+                <section id="proposals"></section>
+              </section>
+            </section>
+          </section>
+          <section class="rightcolumn">
+            <section class="card">
               <img alt="question" src="/question.png" width="500" height="600">
-            </div>
-        </div>
+            </section>
+        </main>
 
         <footer>
           <h2>@2024</h2>
