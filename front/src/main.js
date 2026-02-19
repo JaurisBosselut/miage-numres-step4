@@ -2,13 +2,13 @@ import { initQuizz } from './quizz.js';
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-        <div class="header" style="cursor:pointer;">
+        <header>
           <h1>My Quizz</h1>
           Pour accéder a la page /about <a href="about/" style="text-decoration: none;">click ici</a>
-        </div>
+        </header>
 
 
-        <div class="topnav">
+        <nav>
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-google"></a>
@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-yahoo"></a>
           <a href="#" class="fa fa-reddit"></a>
           <a href="#" class="fa fa-rss"></a>
-        </div>
+        </nav>
 
         <div class="row">
           <div class="leftcolumn">
@@ -45,13 +45,13 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="rightcolumn">
             <div class="card">
-              <img src="/question.png" width="500" height="600">
+              <img alt="question" src="/question.png" width="500" height="600">
             </div>
         </div>
 
-        <div class="footer">
+        <footer>
           <h2>@2024</h2>
-        </div>
+        </footer>
 `
 
 initQuizz();

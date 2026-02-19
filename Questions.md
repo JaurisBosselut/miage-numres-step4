@@ -1,9 +1,11 @@
 # Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cours)
 Réponse:
 
-Rendre un quizz accessible permet de garantir l’égalité d’accès pour tous, y compris les personnes en situation de handicap, d’élargir son public (mobile, personnes âgées, faible débit).
-Cela permet aussi d’améliorer l’expérience utilisateur et l’image de marque, tout en augmentant le trafic et les conversions.
-En plus de cela, l’intégrer dès le départ est plus simple et moins coûteux que de corriger ensuite.
+Rendre un quiz accessible garantit l’égalité d’accès pour tous, y compris les personnes en situation de handicap, et permet de toucher un public plus large (utilisateurs mobiles, personnes âgées, connexions à faible débit). Cela améliore l’expérience utilisateur, renforce l’image de marque.
+
+En Europe, l’accessibilité numérique s’inscrit aussi dans un cadre légal, notamment avec la directive européenne sur l’accessibilité du web et l’European Accessibility Act, qui impose progressivement des exigences d’accessibilité pour de nombreux services numériques.
+
+Intégrer l’accessibilité dès la conception est donc à la fois plus simple, moins coûteux et permet d’anticiper les obligations réglementaires.
 
 # Q2: Ajouter le screen de votre score :
 Screen:
@@ -21,20 +23,37 @@ Réponse:
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
 
+3 rôles ARIA :
+- button
+- navigation
+- dialog
+
+3 propriétés / attributs ARIA :
+- aria-label
+- aria-hidden
+- aria-expanded
+
 # Q6: Ajouter le screen de votre score Lighthouse
 Screen:
+
+![alt text](image-1.png)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
 Réponse:
 
+C’est l’une des bonnes pratiques de l’ARIA : si le HTML est utilisé de manière sémantique (chaque balise utilisée selon son sens, pas seulement son style), il fournit déjà les rôles et comportements accessibles de base. ARIA sert surtout à compléter ou corriger l’accessibilité lorsque le HTML seul ne suffit pas. Si l’on utilise déjà correctement le HTML sémantique, ajouter ARIA serait souvent redondant et inutile.
+
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:
 
+![alt text](image-3.png)
+
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
 Réponse:
+Même si on a amélioré la sémantique de notre page web, Lighthouse ne le prend pas en compte si d'autres critères comme le contraste, les labels etc... restent inchangés.
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
-Réponse:
+Réponse: 
 
 # Q11: Quel est la valeur du score AA :
 Réponse:
