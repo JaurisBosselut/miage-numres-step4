@@ -80,6 +80,8 @@ Je vois bien l'assombrissement quand je passe ma souris ce qui indique un lien m
 # Q16: Ajouter le screen de votre score Lighthouse
 Screen:
 
+![alt text](image-5.png)
+
 # Q17:  Proposition 1
 Description:
 Nb d'actions gagnée : 
